@@ -8,6 +8,11 @@ import oitbpm.nc.bd_8bpm.negocio.Policial;
 import oitbpm.nc.bd_8bpm.persistencia.DependentesDAO;
 import oitbpm.nc.bd_8bpm.persistencia.PoliciaisDAO;
 
+/**
+ * 
+ * @author MARIO
+ *
+ */
 public class Teste {
 
 	public static void main(String[] args) {
