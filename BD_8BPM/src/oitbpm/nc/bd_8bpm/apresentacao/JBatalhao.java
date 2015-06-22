@@ -1,38 +1,19 @@
 package oitbpm.nc.bd_8bpm.apresentacao;
 
-import java.awt.AWTPermission;
 import java.awt.BorderLayout;
-import java.awt.Container;
+import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Frame;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JDesktopPane;
-
-import java.awt.Color;
-
-import javax.swing.JOptionPane;
-import javax.swing.JToolBar;
-import javax.swing.BoxLayout;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-
-import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 
-import javax.swing.JRadioButtonMenuItem;
-import javax.swing.JTable;
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 
-import oitbpm.nc.bd_8bpm.negocio.Policial;
-import oitbpm.nc.bd_8bpm.persistencia.PoliciaisDAO;
-import oitbpm.nc.bd_8ºbpm.backgroundDP.JBackground;
+import oitbpm.nc.bd_8bpm.backgroundDP.JBackground;
 
 public class JBatalhao {
 	
@@ -65,7 +46,7 @@ public class JBatalhao {
 		private  void initialize(){
 		frame = new JFrame();
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);
-		frame.setTitle("Banco de Dados do 8º BPM");
+		frame.setTitle("Banco de Dados do 8ï¿½ BPM");
 		frame.setBounds(100,100,900,600);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(new BorderLayout(0,0));
@@ -190,7 +171,7 @@ public class JBatalhao {
 		JMenuItem mntmSair = new JMenuItem("Sair");
 		mntmSair.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				JOptionPane.showMessageDialog(null, "Deseja sair da aplicação?");
+				JOptionPane.showMessageDialog(null, "Deseja sair da aplicaï¿½ï¿½o?");
 			
 				System.exit(0);
 			}

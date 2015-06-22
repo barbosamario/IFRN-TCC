@@ -1,4 +1,4 @@
-package oitbpm.nc.bd_8ºbpm.backgroundDP;
+package oitbpm.nc.bd_8bpm.backgroundDP;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
